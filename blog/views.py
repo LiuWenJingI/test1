@@ -313,3 +313,5 @@ def search(request):
     return render(request, 'blog/index.html', {'error_msg': error_msg,
                                                'post_list': post_list})
 """
+def about(request):
+    return render(request,'about.html')
